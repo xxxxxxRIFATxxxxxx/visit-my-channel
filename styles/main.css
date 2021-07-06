@@ -1,0 +1,120 @@
+/* Common CSS */
+body {
+    font-family: 'Poppins', sans-serif;
+}
+
+.text-justify {
+    text-align: justify;
+}
+
+.purple-text {
+    color: #B85ADE;
+}
+
+.silver-text {
+    color: rgb(168, 168, 168);
+}
+
+.btn-light:hover {
+    color: white;
+    background-image: linear-gradient(to right, #B85ADE, #F8A227);
+}
+
+/* Header CSS */
+header {
+    background-color: #B85ADE;
+}
+
+.navbar-dark .navbar-nav .nav-link {
+    color: #f9f1fcee;
+}
+
+.navbar-dark .navbar-nav .nav-link:hover {
+    color: white;
+}
+
+.navbar-dark .navbar-nav .nav-item {
+    margin: 0 10px;
+}
+
+.active {
+    color: white;
+    font-weight: bold;
+}
+
+@media only screen and (max-width: 768px) {
+    .header-2nd-section {
+      text-align: center;
+    }
+
+    .header-2nd-section h1 {
+        font-size: 21px;
+    }
+
+    .header-2nd-section small {
+        font-size: 12px;
+    }
+}
+
+
+@media only screen and (min-width: 769px) {
+    .header-2nd-section h1 {
+        font-size: 25px;
+    }
+
+    .header-2nd-section small {
+        font-size: 13px;
+    }
+}
+
+@media only screen and (min-width: 1200px) {
+    .header-2nd-section h1 {
+        font-size: 40px;
+    }
+
+    .header-2nd-section small {
+        font-size: 14px;
+    }
+}
+
+/* Best Service CSS */
+@media only screen and (max-width: 768px) {
+    .best-service {
+      text-align: center;
+    }
+
+    .best-service h2 {
+        font-size: 18px !important;
+    }
+
+    .best-service p {
+        font-size: 12px;
+    }
+
+    .best-service img {
+        width: 75% !important;
+    }
+}
+
+
+@media only screen and (min-width: 769px) {
+    .best-service h2 {
+        font-size: 22px !important;
+    }
+
+    .best-service p {
+        font-size: 13px;
+    }
+}
+
+@media only screen and (min-width: 1200px) {
+    .best-service h2 {
+        font-size: 32px !important;
+    }
+
+    .best-service p {
+        font-size: 16px;
+    }
+}
+
+
