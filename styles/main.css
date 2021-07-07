@@ -151,4 +151,42 @@ header {
     color: rgb(240, 238, 238);
 }
 
+@media only screen and (max-width: 768px) {
+    .buy-package h2 {
+        font-size: 24px !important;
+    }
 
+    .buy-package small {
+        font-size: 12px;
+    }
+}
+
+/* People Say CSS */
+.people-say .card {
+    border: none;
+    box-shadow: 0 4px 8px 4px rgba(0,0,0,0.2);
+    cursor: pointer;
+}
+
+.people-say .card:hover {
+    box-shadow: 0 16px 32px 0 rgba(0,0,0,0.2);
+}
+
+.people-say .card h5 {
+    margin: 0;
+}
+
+.people-say .card-footer {
+    border: none;
+    background-color: white;
+}
+
+@media only screen and (max-width: 768px) {
+    .people-say h2 {
+        font-size: 24px !important;
+    }
+
+    .people-say small {
+        font-size: 12px;
+    }
+}
