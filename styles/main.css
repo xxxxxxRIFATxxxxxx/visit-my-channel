@@ -11,6 +11,10 @@ body {
     color: #B85ADE;
 }
 
+.orange-text {
+    color: #F16347;
+}
+
 .silver-text {
     color: rgb(168, 168, 168);
 }
@@ -29,6 +33,14 @@ body {
     box-shadow: 0 2px 2px 0 rgba(0, 0, 0, 0.2); 
 }
 
+.square-btn {
+    background-image: linear-gradient(to right, #FF7B04, #FEA720);
+}
+
+.square-btn:hover {
+    background-image: linear-gradient(to right, #FEA720, #FF7B04);
+}
+
 .round-btn:hover {
     color: white;
     background-color: #9635bd;
@@ -38,13 +50,56 @@ body {
     font-size: 50px;
 }
 
+.icon-13 {
+    font-size: 16px;
+}
+
 /* Header CSS */
 header {
     background-color: #B85ADE;
 }
 
+/* For Navbar */
+
+/* ============ desktop view ============ */
+@media all and (min-width: 992px) {
+
+	.dropdown-menu li{
+		position: relative;
+	}
+	.dropdown-menu .submenu{ 
+		display: none;
+		position: absolute;
+		left:100%; top:-7px;
+	}
+	.dropdown-menu .submenu-left{ 
+		right:100%; left:auto;
+	}
+
+	.dropdown-menu > li:hover{ background-color: #f1f1f1 }
+	.dropdown-menu > li:hover > .submenu{
+		display: block;
+	}
+}	
+/* ============ desktop view .end// ============ */
+
+/* ============ small devices ============ */
+@media (max-width: 991px) {
+
+.dropdown-menu .dropdown-menu{
+		margin-left:0.7rem; margin-right:0.7rem; margin-bottom: .5rem;
+}
+
+}	
+/* ============ small devices .end// ============ */
+
 .navbar-dark .navbar-nav .nav-link {
     color: #f9f1fcee;
+    font-size: 14px;
+}
+
+.navbar-dark .dropdown-menu {
+    font-size: 14px;
 }
 
 .navbar-dark .navbar-nav .nav-link:hover {
@@ -353,4 +408,52 @@ footer .copy-icon {
     }
 }
 
-  
+/* Service Page CSS */
+.service .card {
+    border: none;
+    box-shadow: 0 4px 8px 4px rgba(0,0,0,0.2);
+    cursor: pointer;
+}
+
+.service .card:hover {
+    box-shadow: 0 16px 32px 0 rgba(0,0,0,0.2);
+}
+
+.service .card h5 {
+    margin: 0;
+}
+
+.service .card-footer {
+    border: none;
+    background-color: white;
+}
+
+.service ul {
+    margin: 0;
+    padding: 0;
+}
+
+.service ul li {
+    font-size: 13px;
+    list-style: none;
+    margin: 0;
+    padding: 10px 0;
+}
+
+.service ul li:nth-child(2n+1) {
+    background-color: rgb(236, 234, 234);
+}
+
+.price {
+    background-image: linear-gradient(to right, #FF7B04, #FEA720);
+}
+
+@media only screen and (max-width: 768px) {
+    .service h2 {
+        font-size: 24px !important;
+    }
+
+    .service small {
+        font-size: 12px;
+    }
+}
