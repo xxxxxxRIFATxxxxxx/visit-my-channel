@@ -20,6 +20,10 @@ body {
     background-image: linear-gradient(to right, #B85ADE, #F8A227);
 }
 
+.icon-50 {
+    font-size: 50px;
+}
+
 /* Header CSS */
 header {
     background-color: #B85ADE;
@@ -115,6 +119,36 @@ header {
     .best-service p {
         font-size: 16px;
     }
+}
+
+/* Offer Service CSS */
+.best-service .card {
+    border: none;
+    cursor: pointer;
+}
+
+.best-service .card:hover {
+    box-shadow: 0 4px 8px 4px rgba(0,0,0,0.2);
+}
+
+/* Buy Package CSS */
+.buy-package {
+    background: linear-gradient(45deg, #df2bb4, #f8a029);
+}
+
+.buy-package .card {
+    background-color: transparent;
+    border: none;
+    box-shadow: 0 4px 8px 4px rgba(0,0,0,0.2);
+    cursor: pointer;
+}
+
+.buy-package .card:hover {
+    box-shadow: 0 16px 32px 0 rgba(0,0,0,0.2);
+}
+
+.buy-package small {
+    color: rgb(240, 238, 238);
 }
 
 
