@@ -1,0 +1,48 @@
+.service .card {
+    border: none;
+    box-shadow: 0 4px 8px 4px rgba(0,0,0,0.2);
+    cursor: pointer;
+}
+
+.service .card:hover {
+    box-shadow: 0 16px 32px 0 rgba(0,0,0,0.2);
+}
+
+.service .card h5 {
+    margin: 0;
+}
+
+.service .card-footer {
+    border: none;
+    background-color: white;
+}
+
+.service ul {
+    margin: 0;
+    padding: 0;
+}
+
+.service ul li {
+    font-size: 13px;
+    list-style: none;
+    margin: 0;
+    padding: 10px 0;
+}
+
+.service ul li:nth-child(2n+1) {
+    background-color: rgb(236, 234, 234);
+}
+
+.price {
+    background-image: linear-gradient(to right, #FF7B04, #FEA720);
+}
+
+@media only screen and (max-width: 768px) {
+    .service h2 {
+        font-size: 24px !important;
+    }
+
+    .service small {
+        font-size: 12px;
+    }
+}
