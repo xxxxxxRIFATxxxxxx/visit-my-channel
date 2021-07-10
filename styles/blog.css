@@ -1,0 +1,30 @@
+.blog .card-footer {
+    background: none;
+    border: none;
+    margin: 0;
+    padding: 0;
+}
+
+.blog .btn {
+    border-radius: 0;
+}
+
+.page-link {
+    border: none;
+    margin: 0 20px;
+    padding-left: .841rem;
+    padding-right: .841rem;
+}
+
+.page-link  {
+    color: #F16347;
+}
+
+.page-link:hover  {
+    background-color: #ff79047e;
+    color: #F16347;
+}
+
+.blog .active .page-link {
+    background-color: #FF7B04;
+}
