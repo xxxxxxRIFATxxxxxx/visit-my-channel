@@ -28,3 +28,14 @@
 .blog .active .page-link {
     background-color: #FF7B04;
 }
+
+/* Blog Details CSS */
+.card-details {
+    padding: 0 100px;
+}
+
+@media all and (max-width: 992px) {
+    .card-details {
+        padding: 0;
+    }
+}	

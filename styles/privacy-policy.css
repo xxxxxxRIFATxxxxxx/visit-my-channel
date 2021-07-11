@@ -88,6 +88,14 @@
     color: #B85ADE !important;
 }
 
+.privacy-policy p {
+    font-size: 13px;
+}
+
+.privacy-policy small {
+    font-size: 12px;
+}
+
 @media only screen and (max-width: 600px) {
     .newsletter-subscribe h2 {
         font-size: 17px;
@@ -96,4 +104,12 @@
     .privacy-policy h6, .last-update {
         text-align: center;
     }
+
+    .privacy-policy p {
+        font-size: 12px;
+    }
+
+    .privacy-policy small {
+        font-size: 10px;
+    }    
 }
